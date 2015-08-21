@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63E9115C1A1A2B6900F0E38A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E9115B1A1A2B6900F0E38A /* main.m */; };
+		63E9115F1A1A2B6900F0E38A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E9115E1A1A2B6900F0E38A /* AppDelegate.m */; };
+		63E911621A1A2B6900F0E38A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E911611A1A2B6900F0E38A /* ViewController.m */; };
+		63E911651A1A2B6900F0E38A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E911631A1A2B6900F0E38A /* Main.storyboard */; };
+		63E911671A1A2B6900F0E38A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63E911661A1A2B6900F0E38A /* Images.xcassets */; };
+		63E9116A1A1A2B6900F0E38A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63E911681A1A2B6900F0E38A /* LaunchScreen.xib */; };
+		63E911761A1A2B6900F0E38A /* TCC_HugoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E911751A1A2B6900F0E38A /* TCC_HugoTests.m */; };
+		63E911821A1A2C1800F0E38A /* TelaDeItens.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E911801A1A2C1800F0E38A /* TelaDeItens.m */; };
+		63E911831A1A2C1800F0E38A /* TelaDeItens.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63E911811A1A2C1800F0E38A /* TelaDeItens.xib */; };
+		63E911861A1A75CE00F0E38A /* LeitorXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E911851A1A75CE00F0E38A /* LeitorXML.m */; };
+		63E911891A1A775500F0E38A /* Dispositivo.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E911881A1A775500F0E38A /* Dispositivo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63E911701A1A2B6900F0E38A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63E9114E1A1A2B6900F0E38A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63E911551A1A2B6900F0E38A;
+			remoteInfo = "TCC-Hugo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63E911561A1A2B6900F0E38A /* TCC-Hugo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TCC-Hugo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63E9115A1A1A2B6900F0E38A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63E9115B1A1A2B6900F0E38A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63E9115D1A1A2B6900F0E38A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		63E9115E1A1A2B6900F0E38A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		63E911601A1A2B6900F0E38A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		63E911611A1A2B6900F0E38A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		63E911641A1A2B6900F0E38A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63E911661A1A2B6900F0E38A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		63E911691A1A2B6900F0E38A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		63E9116F1A1A2B6900F0E38A /* TCC-HugoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TCC-HugoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63E911741A1A2B6900F0E38A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63E911751A1A2B6900F0E38A /* TCC_HugoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCC_HugoTests.m; sourceTree = "<group>"; };
+		63E9117F1A1A2C1800F0E38A /* TelaDeItens.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TelaDeItens.h; sourceTree = "<group>"; };
+		63E911801A1A2C1800F0E38A /* TelaDeItens.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TelaDeItens.m; sourceTree = "<group>"; };
+		63E911811A1A2C1800F0E38A /* TelaDeItens.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TelaDeItens.xib; sourceTree = "<group>"; };
+		63E911841A1A75CE00F0E38A /* LeitorXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeitorXML.h; sourceTree = "<group>"; };
+		63E911851A1A75CE00F0E38A /* LeitorXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeitorXML.m; sourceTree = "<group>"; };
+		63E911871A1A775500F0E38A /* Dispositivo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dispositivo.h; sourceTree = "<group>"; };
+		63E911881A1A775500F0E38A /* Dispositivo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dispositivo.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63E911531A1A2B6900F0E38A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63E9116C1A1A2B6900F0E38A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63E9114D1A1A2B6900F0E38A = {
+			isa = PBXGroup;
+			children = (
+				63E911581A1A2B6900F0E38A /* TCC-Hugo */,
+				63E911721A1A2B6900F0E38A /* TCC-HugoTests */,
+				63E911571A1A2B6900F0E38A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63E911571A1A2B6900F0E38A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63E911561A1A2B6900F0E38A /* TCC-Hugo.app */,
+				63E9116F1A1A2B6900F0E38A /* TCC-HugoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63E911581A1A2B6900F0E38A /* TCC-Hugo */ = {
+			isa = PBXGroup;
+			children = (
+				63E9115D1A1A2B6900F0E38A /* AppDelegate.h */,
+				63E9115E1A1A2B6900F0E38A /* AppDelegate.m */,
+				63E911601A1A2B6900F0E38A /* ViewController.h */,
+				63E911611A1A2B6900F0E38A /* ViewController.m */,
+				63E911631A1A2B6900F0E38A /* Main.storyboard */,
+				63E9117F1A1A2C1800F0E38A /* TelaDeItens.h */,
+				63E911801A1A2C1800F0E38A /* TelaDeItens.m */,
+				63E911811A1A2C1800F0E38A /* TelaDeItens.xib */,
+				63E911661A1A2B6900F0E38A /* Images.xcassets */,
+				63E911681A1A2B6900F0E38A /* LaunchScreen.xib */,
+				63E911591A1A2B6900F0E38A /* Supporting Files */,
+				63E911841A1A75CE00F0E38A /* LeitorXML.h */,
+				63E911851A1A75CE00F0E38A /* LeitorXML.m */,
+				63E911871A1A775500F0E38A /* Dispositivo.h */,
+				63E911881A1A775500F0E38A /* Dispositivo.m */,
+			);
+			path = "TCC-Hugo";
+			sourceTree = "<group>";
+		};
+		63E911591A1A2B6900F0E38A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63E9115A1A1A2B6900F0E38A /* Info.plist */,
+				63E9115B1A1A2B6900F0E38A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63E911721A1A2B6900F0E38A /* TCC-HugoTests */ = {
+			isa = PBXGroup;
+			children = (
+				63E911751A1A2B6900F0E38A /* TCC_HugoTests.m */,
+				63E911731A1A2B6900F0E38A /* Supporting Files */,
+			);
+			path = "TCC-HugoTests";
+			sourceTree = "<group>";
+		};
+		63E911731A1A2B6900F0E38A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63E911741A1A2B6900F0E38A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63E911551A1A2B6900F0E38A /* TCC-Hugo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63E911791A1A2B6900F0E38A /* Build configuration list for PBXNativeTarget "TCC-Hugo" */;
+			buildPhases = (
+				63E911521A1A2B6900F0E38A /* Sources */,
+				63E911531A1A2B6900F0E38A /* Frameworks */,
+				63E911541A1A2B6900F0E38A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TCC-Hugo";
+			productName = "TCC-Hugo";
+			productReference = 63E911561A1A2B6900F0E38A /* TCC-Hugo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63E9116E1A1A2B6900F0E38A /* TCC-HugoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63E9117C1A1A2B6900F0E38A /* Build configuration list for PBXNativeTarget "TCC-HugoTests" */;
+			buildPhases = (
+				63E9116B1A1A2B6900F0E38A /* Sources */,
+				63E9116C1A1A2B6900F0E38A /* Frameworks */,
+				63E9116D1A1A2B6900F0E38A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63E911711A1A2B6900F0E38A /* PBXTargetDependency */,
+			);
+			name = "TCC-HugoTests";
+			productName = "TCC-HugoTests";
+			productReference = 63E9116F1A1A2B6900F0E38A /* TCC-HugoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63E9114E1A1A2B6900F0E38A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Saraiva;
+				TargetAttributes = {
+					63E911551A1A2B6900F0E38A = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 6UV49JSKYX;
+					};
+					63E9116E1A1A2B6900F0E38A = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 63E911551A1A2B6900F0E38A;
+					};
+				};
+			};
+			buildConfigurationList = 63E911511A1A2B6900F0E38A /* Build configuration list for PBXProject "TCC-Hugo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63E9114D1A1A2B6900F0E38A;
+			productRefGroup = 63E911571A1A2B6900F0E38A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63E911551A1A2B6900F0E38A /* TCC-Hugo */,
+				63E9116E1A1A2B6900F0E38A /* TCC-HugoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63E911541A1A2B6900F0E38A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63E911651A1A2B6900F0E38A /* Main.storyboard in Resources */,
+				63E9116A1A1A2B6900F0E38A /* LaunchScreen.xib in Resources */,
+				63E911831A1A2C1800F0E38A /* TelaDeItens.xib in Resources */,
+				63E911671A1A2B6900F0E38A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63E9116D1A1A2B6900F0E38A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63E911521A1A2B6900F0E38A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63E911621A1A2B6900F0E38A /* ViewController.m in Sources */,
+				63E911891A1A775500F0E38A /* Dispositivo.m in Sources */,
+				63E9115F1A1A2B6900F0E38A /* AppDelegate.m in Sources */,
+				63E911861A1A75CE00F0E38A /* LeitorXML.m in Sources */,
+				63E911821A1A2C1800F0E38A /* TelaDeItens.m in Sources */,
+				63E9115C1A1A2B6900F0E38A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63E9116B1A1A2B6900F0E38A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63E911761A1A2B6900F0E38A /* TCC_HugoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63E911711A1A2B6900F0E38A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63E911551A1A2B6900F0E38A /* TCC-Hugo */;
+			targetProxy = 63E911701A1A2B6900F0E38A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63E911631A1A2B6900F0E38A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63E911641A1A2B6900F0E38A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63E911681A1A2B6900F0E38A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63E911691A1A2B6900F0E38A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63E911771A1A2B6900F0E38A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63E911781A1A2B6900F0E38A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63E9117A1A1A2B6900F0E38A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "TCC-Hugo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		63E9117B1A1A2B6900F0E38A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "TCC-Hugo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		63E9117D1A1A2B6900F0E38A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TCC-HugoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCC-Hugo.app/TCC-Hugo";
+			};
+			name = Debug;
+		};
+		63E9117E1A1A2B6900F0E38A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TCC-HugoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCC-Hugo.app/TCC-Hugo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63E911511A1A2B6900F0E38A /* Build configuration list for PBXProject "TCC-Hugo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63E911771A1A2B6900F0E38A /* Debug */,
+				63E911781A1A2B6900F0E38A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63E911791A1A2B6900F0E38A /* Build configuration list for PBXNativeTarget "TCC-Hugo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63E9117A1A1A2B6900F0E38A /* Debug */,
+				63E9117B1A1A2B6900F0E38A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63E9117C1A1A2B6900F0E38A /* Build configuration list for PBXNativeTarget "TCC-HugoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63E9117D1A1A2B6900F0E38A /* Debug */,
+				63E9117E1A1A2B6900F0E38A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63E9114E1A1A2B6900F0E38A /* Project object */;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Controlador Arduino</title>
+<script type='text/javascript'>
+function alterarNome(codigo, texto) {
+   alert("alterado com sucesso!");
+}
+</script>
+</head>
+<body>
+<div>Domótica - TCC HUGO SARAIVA</div>
+<div>Configuração</div>
+<br/>
+<br/>
+<table>
+<tr>
+<td>Dispositivo</td>
+<td>Ação</td>
+</tr>
+<tr>
+<td><input type='text' id='edtTexto1' value='Luz da Cozinha'></td>
+<td><input type='button' id='btnAlterar1' onclick='alterarNome(1,document.getElementById(/"edtTexto1/").value)' value='Alterar'></td>
+</tr>
+<tr>
+<td><input type='text' id='edtTexto2' value='Ventilador da Cozinha'></td>
+<td><input type='button' id='btnAlterar2' onclick='alterarNome(2,document.getElementById(/"edtTexto2/").value)' value='Alterar'></td>
+</tr>
+</table>
+<br/>
+<div><a href="padrao.html">Voltar</a></div>
+</body>
+</html>

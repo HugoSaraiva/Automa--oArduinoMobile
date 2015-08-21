@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Controlador Arduino</title>
+<script type='text/javascript'>
+function alterarStatus(codigo, status) {
+   alert("alterado com sucesso!");
+}
+</script>
+</head>
+<body>
+<div>Domótica - TCC HUGO SARAIVA</div>
+<div>Padrão</div>
+<br/>
+<br/>
+<table>
+<tr>
+<td>Dispositivo</td>
+<td>Status</td>
+<td>Ação</td>
+</tr>
+<tr>
+<td>Luz da Cozinha</td>
+<td>Desligado</td>
+<td><input type='button' id='btnAlterar1' onclick='alterarStatus(1,1)' value='Alterar'></td>
+</tr>
+<tr>
+<td>Ventilador da Cozinha</td>
+<td>Ligado</td>
+<td><input type='button' id='btnAlterar2' onclick='alterarStatus(2,0)' value='Alterar'></td>
+</tr>
+</table>
+<br/>
+<div><a href="configuracao.html">Configuração</a></div>
+</body>
+</html>

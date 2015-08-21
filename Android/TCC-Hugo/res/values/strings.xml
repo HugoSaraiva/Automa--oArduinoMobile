@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TCC-Hugo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="domotica">Domótica</string>
+    <string name="entrar">Entrar</string>
+    <string name="ip">IP</string>
+    <string name="title_activity_lista_de_itens">ListaDeItens</string>
+    <string name="alterar">Alterar</string>
+
+</resources>
